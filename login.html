@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>let's Meet</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+  <div id="topRow">
+      <div id="menuItem">
+        Slot Booking and Allocation Website
+      </div>
+  </div>
+  <br>
+  <div id="mainContainer">
+    <div id="loginform">
+      <fieldset>
+        <legend>Login:</legend>
+        <form>
+          <input type="input" name="user" required autofocus placeholder = "username"  class="input"> <br>
+          <input type="password" name="pass" required autofocus placeholder = "password" class="input"> <br>
+          <input type="button" value="Login" onclick='obj.login(user,pass)' class="button">
+        </form>
+      </fieldset>
+      <div>
+        <a onclick="siwitchLoginSighup()"> <p style='font-size: 12px;'> doesn't have a account? Signup? </p></a>
+      </div>
+    </div>
+    <div id="signform">
+      <fieldset>
+        <legend>Signup:</legend>
+        <form>
+          <input type="input" name="user" required autofocus placeholder = "username"  class="input"> <br>
+          <input type="password" name="pass" required autofocus placeholder = "password" class="input"> <br>
+          <input type="button" value="Signup" onclick='obj.signup(user,pass)' class="button">
+        </form>
+      </fieldset>
+      <div>
+        <a onclick="siwitchLoginSighup()"> <p style='font-size: 12px;'> already have a account? login? </p></a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

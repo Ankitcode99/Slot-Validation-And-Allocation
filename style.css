@@ -1,0 +1,65 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
+#topRow {
+  height: 40px;
+  background-color: #184100;
+}
+
+#menuItem {
+  float: left;
+  margin:10px;
+  color: rgb(199, 199, 199);
+}
+
+#userLogin {
+  margin: 10px;
+  float: right;
+  color: rgb(199, 199, 199);
+}
+
+#menuItem:hover, #userLogin:hover {
+  color: white;
+}
+
+#mainContainer {
+  min-width: 600px;
+  width: 60%;
+  margin: auto;
+}
+
+#loginform {
+  max-width: 400px;
+  min-width: 200px;
+  margin: auto;
+}
+
+#signform {
+  max-width: 400px;
+  min-width: 200px;
+  margin: auto;
+}
+
+.input {
+  text-align: center;
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgb(214, 214, 214);
+  height: 30px;
+  margin-top: 20px;
+  font-family: 'Merriweather', serif;
+  width: 100%;
+}
+
+.button {
+  height: 30px;
+  border-style: none;
+  border-radius: 10px;
+  color: rgb(196, 196, 196);
+  margin-top: 30px;
+  font-family: 'Merriweather', serif;
+  background-color: #184100;
+  width: 40%;
+  margin-left: 30%;
+}
