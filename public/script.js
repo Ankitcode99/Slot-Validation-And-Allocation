@@ -4,7 +4,7 @@ var userPass;
 const menuItem = document.getElementById('menuItem');
 menuItem.addEventListener('click', () => {
   if (confirm('Do you want to leave this website ?'))
-    document.location.href='./home.html?'+userName+':'+userPass;
+    document.location.href='./home.html';
 });
 
 const userLogin = document.getElementById('userLogin');
@@ -16,7 +16,7 @@ if (userLogin) {
   userLogin.addEventListener('click', () => {
     if (confirm('Do you want to leave this website ?'))
       if (userName) 
-        document.location.href='./user.html?'+userName+':'+userPass+':'+userName;
+        document.location.href='./user.html';
       else 
         document.location.href='./login.html';
   });

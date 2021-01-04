@@ -10,36 +10,36 @@
 </head>
 <body>
   <div id="topRow">
-      <div id="menuItem">
+      <div id="menuItem" class="clickable">
         Slot Booking and Allocation Website
       </div>
   </div>
   <br>
   <div id="mainContainer">
-    <div id="loginform">
+    <div id="loginform" class="formbox">
       <fieldset>
         <legend>Login:</legend>
         <form>
           <input type="input" name="user" required autofocus placeholder = "username"  class="input"> <br>
           <input type="password" name="pass" required autofocus placeholder = "password" class="input"> <br>
-          <input type="button" value="Login" onclick='obj.login(user,pass)' class="button">
+          <input type="button" value="Login" onclick='obj.login(user,pass)' class="button clickable">
         </form>
       </fieldset>
       <div>
-        <a onclick="siwitchLoginSighup()"> <p style='font-size: 12px;'> doesn't have a account? Signup? </p></a>
+        <p> doesn't have a account? <a onclick="siwitchLoginSighup()" class="clickable"> Signup? </a></p>
       </div>
     </div>
-    <div id="signform">
+    <div id="signform" class="formbox">
       <fieldset>
         <legend>Signup:</legend>
         <form>
           <input type="input" name="user" required autofocus placeholder = "username"  class="input"> <br>
           <input type="password" name="pass" required autofocus placeholder = "password" class="input"> <br>
-          <input type="button" value="Signup" onclick='obj.signup(user,pass)' class="button">
+          <input type="button" value="Signup" onclick='obj.signup(user,pass)' class="button clickable">
         </form>
       </fieldset>
       <div>
-        <a onclick="siwitchLoginSighup()"> <p style='font-size: 12px;'> already have a account? login? </p></a>
+        <p> already have a account? <a onclick="siwitchLoginSighup()" class="clickable"> login? </a></p>
       </div>
     </div>
   </div>

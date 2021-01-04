@@ -2,8 +2,13 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+p {
+  font-size: 10px;
+}
+
 #topRow {
   height: 40px;
+  min-width: 600px;
   background-color: #184100;
 }
 
@@ -19,9 +24,6 @@ body {
   color: rgb(199, 199, 199);
 }
 
-#menuItem:hover, #userLogin:hover {
-  color: white;
-}
 
 #mainContainer {
   min-width: 600px;
@@ -29,13 +31,7 @@ body {
   margin: auto;
 }
 
-#loginform {
-  max-width: 400px;
-  min-width: 200px;
-  margin: auto;
-}
-
-#signform {
+.formbox {
   max-width: 400px;
   min-width: 200px;
   margin: auto;
@@ -62,4 +58,10 @@ body {
   background-color: #184100;
   width: 40%;
   margin-left: 30%;
+}
+
+
+.clickable:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

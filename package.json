@@ -1,0 +1,26 @@
+{
+  "name": "slot-validation-and-allocation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Technical-Training/Slot-Validation-And-Allocation.git"
+  },
+  "author": "sirearsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Technical-Training/Slot-Validation-And-Allocation/issues"
+  },
+  "homepage": "https://github.com/Technical-Training/Slot-Validation-And-Allocation#readme"
+}
